@@ -24,6 +24,13 @@ img {
     float: left;
 }
 
+.button {
+    background-color: #0061ff;
+    color: white;
+    text-decoration: none;
+    padding: 6px 18px;
+}
+
 
 
 /* HEADER */
@@ -41,6 +48,7 @@ nav * {
 
 .logo {
     display: inline-block;
+    margin-right: 20px;
     
 }
 
@@ -67,6 +75,10 @@ nav * {
     color: black;
 }
 
+.btn-top {
+    margin-left: 20px;
+}
+
 /* MAIN */
 
 /* Jumbotron */
@@ -82,14 +94,13 @@ nav * {
 
 .jumbo-left {
     width: 30%;
-    border: 1px solid red;
-    margin-top: 90px;
     
+    margin-top: 90px;
 }
 
 .jumbo-right {
     width: 70%;
-    border: 1px solid red;
+    
 }
 
 .jumbo-content h1 {
@@ -100,4 +111,14 @@ nav * {
 .img-jumbo {
     position: relative;
     top: 90px;
+}
+
+.btn-jumbo {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.down-arrow {
+    font-size: 40px;
+    margin-top: 40px;
 }
