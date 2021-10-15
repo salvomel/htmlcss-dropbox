@@ -4,3 +4,64 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+/* COMMON */
+body {
+    font-family: 'Open Sans',sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+
+/* HEADER */
+nav {
+    padding: 25px;
+    border: 1px solid red;
+}
+
+.logo-img {
+    width: 120px;   
+}
+
+nav * {
+    vertical-align: middle;
+}
+
+.logo {
+    display: inline-block;
+    
+}
+
+.nav-left, .nav-right {
+    width: 50%;
+}
+
+.nav-right {
+    text-align: right;
+}
+
+.top-menu {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.top-menu li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.top-menu a {
+    text-decoration: none;
+    color: black;
+}
