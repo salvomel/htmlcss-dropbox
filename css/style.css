@@ -37,6 +37,15 @@ img {
 }
 
 /* HEADER */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+
 nav {
     padding: 25px;
 }
@@ -82,6 +91,9 @@ nav * {
 }
 
 /* MAIN */
+main {
+    margin-top: 100px;
+}
 
 /* Jumbotron */
 .jumbotron {
