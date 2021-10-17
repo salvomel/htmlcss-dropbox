@@ -28,7 +28,7 @@ img {
     background-color: #0061ff;
     color: white;
     text-decoration: none;
-    padding: 6px 18px;
+    padding: 7px 18px;
 }
 
 .container {
@@ -88,7 +88,9 @@ nav * {
 
 .btn-top {
     margin: 0 20px;
+    font-size: 13px;
 }
+
 
 /* Button hover */
 .top-menu a:hover {
@@ -159,7 +161,7 @@ main {
 .col-plan-left,
 .col-plan-center,
 .col-plan-right {
-    height: 500px;
+    height: 850px;
     width: calc( ( 100% / 3 ) - ( 100px / 3 ) );
     border: 1px solid lightgrey;
 }
@@ -193,6 +195,7 @@ main {
     margin-right: 20px;
 }
 
+/* Description plans */
 .user {
     border-bottom: 1px solid lightgrey;
     padding: 10px;
@@ -200,3 +203,104 @@ main {
     font-size: 15px;
 }
 
+.description {
+    padding: 30px 25px;
+    margin: auto;
+}
+
+.name-plan {
+    font-size: 23px;
+}
+
+.price {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.mounth {
+    font-size: 13px;
+    color: grey;
+    padding-bottom: 30px;
+}
+
+ .functions-list {
+     font-size: 13px;
+     list-style-type: none;
+ }
+
+.functions-list li {
+    padding: 10px 0;
+}
+
+ .btn-try {
+    padding: 40px 0 30px;
+    font-size: 13px;
+    text-align: center;
+ }
+
+ .btn-try a {
+    padding: 8px 50px;
+ }
+
+ .purchase {
+     font-size: 13px;
+ }
+
+ .purchase::after {
+    display: block;
+	content: '';
+	width: 60px;
+	height: 1px;
+	background-color: lightgray;
+	margin: 30px 0 40px;
+ }
+
+ /* Description points */
+ .points-list {
+    list-style-type: none;
+    font-size: 13px;
+   
+ }
+
+ .points-list h5 {
+     font-size: 15px;
+     margin-bottom: 20px;
+ }
+
+ .points-list li {
+    margin-bottom: 20px;
+}
+
+.check-col {
+    color: blue;
+}
+
+/* Bottom plan */
+.plan-bottom {
+    border: 1px solid lightgrey;
+    margin-top: 40px;
+}
+
+.col-plan-bottom-left {
+    float: left;
+}
+
+.col-plan-bottom-right {
+    float: right;
+}
+
+.solutions {
+    font-size: 13px;
+    padding-top: 15px;
+}
+
+.btn-contact a {
+    font-size: 13px;
+    padding: 8px 70px;
+}
+
+/* Section find partner */
+.find-partner {
+    margin: 100px 0;
+}
