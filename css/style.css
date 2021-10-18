@@ -162,7 +162,7 @@ main {
 .col-plan-left,
 .col-plan-center,
 .col-plan-right {
-    height: 850px;
+    min-height: 900px;
     width: calc( ( 100% / 3 ) - ( 100px / 3 ) );
     border: 1px solid lightgrey;
 }
@@ -352,7 +352,7 @@ main {
 
 .single-feature {
     width: calc( 100% / 3 );
-    padding: 40px 20px 40px 0;
+    padding: 40px 30px 40px 0;
     font-size: 15px;
 }
 
