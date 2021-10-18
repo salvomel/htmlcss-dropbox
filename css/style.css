@@ -223,7 +223,7 @@ main {
     padding-bottom: 30px;
 }
 
- .functions-list {
+.functions-list {
      font-size: 13px;
      list-style-type: none;
  }
@@ -265,7 +265,7 @@ main {
     font-size: 13px;
  }
 
- .points-list h5 {
+ .main-points h5 {
      font-size: 15px;
      margin-bottom: 20px;
  }
@@ -500,4 +500,52 @@ main {
 }
 
 /* FOOTER */
+.footer-container {
+    width: 80%;
+    margin: auto;
+}
 
+footer {
+    margin-top: 100px;
+    padding: 90px 0 45px;
+    background-color: black;
+    color: white;
+}
+
+.footer-links {
+    width: 20%;
+}
+
+.footer-links h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+    list-style-type: none;
+}
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/* Footer bottom */
+.footer-bottom::before {
+    display: block;
+	content: '';
+	width: 100px;
+	height: 1px;
+	background-color: gray;
+    margin: 70px 0 40px;
+}
+
+.languages {
+    font-size: 11px;
+    color: gray;
+}
+
+.languages * {
+    vertical-align: middle;
+}
