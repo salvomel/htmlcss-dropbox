@@ -29,6 +29,7 @@ img {
     color: white;
     text-decoration: none;
     padding: 7px 18px;
+    display: inline-block;
 }
 
 .container {
@@ -237,13 +238,13 @@ main {
 }
 
  .btn-try {
-    padding: 40px 0 30px;
+    margin: 40px 0;
     font-size: 13px;
     text-align: center;
  }
 
  .btn-try a {
-    padding: 8px 50px;
+    width: 100%;
  }
 
  .purchase {
@@ -287,10 +288,12 @@ main {
 
 .col-plan-bottom-left {
     float: left;
+    width: 70%;
 }
 
 .col-plan-bottom-right {
     float: right;
+    width: 30%;
 }
 
 .solutions {
@@ -298,9 +301,13 @@ main {
     padding-top: 15px;
 }
 
+.btn-contact {
+    text-align: center;
+}
+
 .btn-contact a {
     font-size: 13px;
-    padding: 8px 70px;
+    width: 100%;
 }
 
 /* Section find partner */
