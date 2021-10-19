@@ -351,9 +351,12 @@ main {
 }
 
 .single-feature {
-    width: calc( 100% / 3 );
-    padding: 40px 30px 40px 0;
+    width: calc( (100% / 3 ) - (100px / 3));
     font-size: 15px;
+}
+
+.single-feature:nth-child(2) {
+    margin: 0 50px;
 }
 
 .single-feature h4 {
@@ -361,14 +364,19 @@ main {
     margin-bottom: 20px;
 }
 
+.raw-feat {
+    margin-top: 50px;
+}
+
 /* Section team boxes */
 .teams {
-    margin-top: 120px;
+    margin-top: 150px;
 }
 
 .teams h2 {
     font-size: 35px;
     padding-bottom: 20px;
+    width: 60%;
 }
 
 .find-more {
@@ -493,6 +501,7 @@ main {
     float: right;
     font-size: 20px;
     padding-right: 35px;
+    cursor: pointer;
 }
 
 .row-question {
@@ -551,6 +560,10 @@ footer {
 .languages {
     font-size: 11px;
     color: gray;
+}
+
+.languages:hover {
+    cursor: pointer;
 }
 
 .languages * {
