@@ -37,8 +37,12 @@ img {
     margin: auto;
 }
 
-.btn-hover:hover {
+.btn-hover-purple:hover {
     background-color: purple;
+}
+
+.btn-hover-grey:hover {
+    background-color: lightgray;
 }
 
 /* HEADER */
@@ -55,7 +59,6 @@ header {
 
 .logo-img {
     width: 115px;
-    margin: 0 20px;   
 }
 
 nav * {
@@ -77,14 +80,14 @@ nav * {
 
 .top-menu li {
     display: inline-block;
+    margin: 0 20px;
 }
 
 .top-menu a {
     display: inline-block;
     text-decoration: none;
-    line-height: 70px;
+    line-height: 68px;
     color: black;
-    margin: 0 20px;
 }
 
 .btn-top {
@@ -92,8 +95,6 @@ nav * {
     font-size: 13px;
 }
 
-
-/* Button hover */
 .top-menu a:hover {
     border-bottom: 2px solid black;
 }
@@ -150,6 +151,10 @@ main {
     margin-top: 35px;
 }
 
+.down-arrow:hover {
+    cursor: pointer;
+}
+
 /* Section Plans */
 .plans {
     margin-top: 180px;
@@ -163,7 +168,7 @@ main {
 .col-plan-center,
 .col-plan-right {
     min-height: 900px;
-    width: calc( ( 100% / 3 ) - ( 100px / 3 ) );
+    width: calc((100% / 3) - (100px / 3));
     border: 1px solid lightgrey;
 }
 
@@ -186,6 +191,10 @@ main {
     width: 18px;
     border-radius: 50%;
     border: 1px solid lightgrey;
+}
+
+.radio-btn:hover {
+    cursor: pointer;
 }
 
 .radio-left {
@@ -351,7 +360,7 @@ main {
 }
 
 .single-feature {
-    width: calc( (100% / 3 ) - (100px / 3));
+    width: calc((100% / 3) - (100px / 3));
     font-size: 15px;
 }
 
@@ -432,7 +441,7 @@ main {
     width: 55%;
 }
 
-/* Background colors */
+/* Background colors boxes */
 .green {
     background-color: #a2d39b;
 }
@@ -457,7 +466,7 @@ main {
 
 /* Bottom box */
 .bottom-box {
-    height: 300px;
+    padding: 110px 0;
     background-color: #b4d0e7;
 }
 
@@ -468,14 +477,12 @@ main {
 
 .bottom-box-right {
     text-align: center;
-    margin-top: 110px;
 }
 
 .bottom-box-left h3 {
     font-size: 35px;
     color: #61082b;
-    padding-left: 220px;
-    padding-top: 100px;
+    margin-left: 220px;
 }
 
 .btn-try-bottom {
@@ -500,7 +507,7 @@ main {
 .col-angle-down {
     float: right;
     font-size: 20px;
-    padding-right: 35px;
+    margin-right: 35px;
     cursor: pointer;
 }
 
@@ -508,6 +515,7 @@ main {
     border-bottom: 1px solid lightgray;
     padding-top: 30px;
     padding-bottom: 50px;
+    vertical-align: middle;
 }
 
 .question {
@@ -538,7 +546,7 @@ footer {
 }
 
 .footer-links li {
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     list-style-type: none;
 }
 .footer-links a {
@@ -560,12 +568,9 @@ footer {
 .languages {
     font-size: 11px;
     color: gray;
+    vertical-align: middle;
 }
 
 .languages:hover {
     cursor: pointer;
-}
-
-.languages * {
-    vertical-align: middle;
 }
